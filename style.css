@@ -72,6 +72,9 @@ body{
 }
 
 @media (max-width: 1080px){
+    *{
+        transform: scale(0.9);
+    }
     body{
         color: #daa520;
         transition: ease color .5s
